@@ -1,0 +1,46 @@
+@media screen and (min-width: 800px) {
+    .text{
+        margin: auto;
+        width: 45%;
+        font-size: 16px;
+    }
+    #left{
+        text-align: left;     
+        
+    }
+    #right{
+        text-align: right; 
+    }
+}
+@media screen and (max-width: 800px) {
+    .text{
+        margin: auto;
+        max-width: 85%;
+        min-width: 70%;
+        font-size: 14px;
+    }
+    #left{
+        position: relative;
+        float: none;     
+        left: 20px;
+    }
+    #right{
+        position: relative;
+        text-align: right; 
+        right: 20px;
+    }
+}
+.text{
+    color: white;
+    margin: auto;
+}
+#icon_links{
+      margin-top: 30px;
+      width: 128px;
+}
+
+  
+
+
+
+

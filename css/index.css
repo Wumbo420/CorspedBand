@@ -1,0 +1,115 @@
+html{
+  width: 100%;
+  background-color:black;
+  font-family: "Yu Gothic UI",'Gothic A1', 'Carrois Gothic SC', sans-serif;
+}
+/*https://www.w3schools.com/css/tryit.asp?filename=trycss_mediaqueries_fontsize*/
+a:link { 
+  color: white !important;
+}
+
+#main_img{
+  max-width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  background-size: 100% 100%;
+  object-fit: scale-down;
+  position: relative;
+  border-radius: 5px;
+  top: 5px;
+}
+
+@media screen and (min-width: 800px) {
+  body{
+    font-size: 16px;
+  }
+  li {
+    float: left;
+    cursor: pointer;
+  }
+  #icon_links{
+    margin-top: 30px;
+    width: 128px; 
+  }
+  header{
+    position: sticky;
+  }
+  ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: auto;
+    width: 60%;
+    font-family: inherit;
+    padding-left: 0px;
+    display: flex; 
+    justify-content: space-evenly;  
+  }
+  .icon_links{
+    float: right;
+  } 
+}
+
+
+@media screen and (max-width: 800px) {
+  body{
+    font-size: 14px;
+  }
+  li {
+    float: none;
+    cursor: pointer;
+  }
+  #icon_links{
+    margin-top: 10px;
+    width: 20%;
+    display: block;
+  }
+  ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    font-family: inherit;
+    display: block;
+    padding-left: 0px;
+    display: grid; 
+    justify-content: center;  
+  }
+} 
+
+/*border: 5px solid #ebf6ff;*/
+li a {
+  display: table;
+  padding: 0px 30px 0px 30px;
+  margin: auto;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  color: #b7b7b7;
+  font-size: 16px;
+  width: 100%;
+}
+
+li a:hover {
+  color: #ffffff;
+}
+
+li a:focus{
+    outline: none;
+}
+
+
+/*https://learn.zybooks.com/zybook/UNCCITIS3135BasuSpring2019/chapter/1/section/25?content_resource_id=26917910
+css selectors (important!)
+*/
+
+/*
+grid site layout code allows elements to be structured in columns and rows
+https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template
+*/

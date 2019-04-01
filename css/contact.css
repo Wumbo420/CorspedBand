@@ -1,0 +1,212 @@
+@media screen and (min-width: 800px) {
+  .e1{
+    border-radius: 5px; 
+    border: none;
+    color: black;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font: 'Carrois Gothic SC', sans-serif;
+    margin: 0px 5px;
+    cursor: text;
+    outline: none;
+    width: 50%; 
+    min-width: 50%; 
+    max-width: 50%; 
+    min-height: 160px; 
+    max-height: 290px;
+    margin-top: 0px; 
+    margin-bottom: 0px
+  }
+  #send{
+    background: #b5b5b5,;
+    border-radius: 5px; 
+    border: none;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 15px 2px;
+    cursor: pointer;
+    font-style:bold;
+  }
+  #form_email{
+    font-family: inherit;
+    width: 25%; 
+    min-width: 25%; 
+    max-width: 25%;
+    font-size: 14px;
+    cursor: text;
+    border-radius: 5px; 
+    border: none;
+    margin: 15px 6px;
+    padding: 10px 25px;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  #form_email:focus{
+    font-family: inherit;
+    width: 25%; 
+    min-width: 25%; 
+    max-width: 25%;
+    font-size: 14px;
+    cursor: text;
+    border-radius: 5px; 
+    border: none;
+    margin: 15px 6px;
+    padding: 10px 25px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  #form_subject{
+    font-family: inherit;
+        width: 25%; 
+    min-width: 25%; 
+    max-width: 25%;
+    font-size: 14px;
+    cursor: text;
+    border-radius: 5px; 
+    border: none;
+    margin: 15px 6px;
+    padding: 10px 25px;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  #form_subject:focus{
+    font-family: inherit;
+        width: 25%; 
+    min-width: 25%; 
+    max-width: 25%;
+    font-size: 14px;
+    cursor: text;
+    border-radius: 5px; 
+    border: none;
+    margin: 15px 6px;
+    padding: 10px 25px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+}
+
+@media screen and (max-width: 800px) {
+.e1{
+  font: inherit;
+  border-radius: 4px; 
+  border: none;
+  color: black;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 5px 5px;
+  cursor: pointer;
+  outline: none;
+  width: 60%; 
+  min-width: 60%; 
+  max-width: 60%; 
+  height: 17px; 
+  min-height: 120px; 
+  max-height: 180px;
+  margin-top: 0px; 
+  margin-bottom: 0px
+}
+  #send{
+  background: #b5b5b5,
+  linear-gradient(#fcfcfc, #f3f3f3),
+  linear-gradient(#f2f2f2 0%, #ebebeb 9%, #dddddd 50%, #cfcfcf 100%);
+  font-family:'Carrois Gothic SC', sans-serif, serif;
+  border-radius: 5px; 
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 15px 2px;
+  cursor: pointer;
+  }
+  #form_email{
+    font-family: inherit;
+    width: 40%; 
+    min-width: 30%; 
+    max-width: 40%; 
+    font-size: 14px;
+    cursor: text;
+    border-radius: 5px; 
+    border: none;
+    margin: 15px 2px;
+    padding: 10px 25px;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  #form_email:focus{
+    font-family: inherit;
+    width: 40%; 
+    min-width: 30%; 
+    max-width: 40%;  
+    font-size: 14px;
+    cursor: text;
+    border-radius: 5px; 
+    border: none;
+    margin: 15px 2px;
+    padding: 10px 25px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  #form_subject{
+    font-family: inherit;
+    width: 40%; 
+    min-width: 30%; 
+    max-width: 40%; 
+    font-size: 14px;
+    cursor: text;
+    border-radius: 5px; 
+    border: none;
+    margin: 15px 2px;
+    padding: 10px 25px;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  #form_subject:focus{
+    font-family: inherit;
+    width: 40%; 
+    min-width: 30%; 
+    max-width: 40%; 
+    font-size: 14px;
+    cursor: text;
+    border-radius: 5px; 
+    border: none;
+    margin: 15px 2px;
+    padding: 10px 25px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+}
+  
+.text{
+  color: white;
+  text-align: center;
+  font-family: inherit;
+}
+
+#imp{
+  color: gold;
+  text-align: center;
+  font-family:'Carrois Gothic SC', sans-serif, serif;
+}
+
+.e1:focus-within{
+background-color: rgba(255, 255, 255, 1);
+}
+
+.e1{
+  background-color: rgba(255, 255, 255, 0.9);
+}
+#sect{
+    width: 60%; 
+    display: inline-block;
+    max-width: 60%; 
+    padding: 10px 25px;
+}
