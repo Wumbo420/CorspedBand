@@ -6,6 +6,7 @@ html{
 /*https://www.w3schools.com/css/tryit.asp?filename=trycss_mediaqueries_fontsize*/
 a:link { 
   color: white !important;
+  text-decoration: none;
 }
 
 #main_img{
@@ -21,7 +22,7 @@ img{
   background-size: 100% 100%;
   object-fit: scale-down;
   position: relative;
-  border-radius: 5px;
+  border-radius: 2px;
   top: 5px;
 }
 
