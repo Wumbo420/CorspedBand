@@ -1,3 +1,4 @@
+/*mobile view*/
 @media screen and (max-width: 800px) {
   .ico{
     position: relative;
@@ -16,7 +17,7 @@
       padding:10%;
     }
 }
-
+/*large view*/
 @media screen and (min-width: 800px) {
   .ico{
     position: relative;

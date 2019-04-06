@@ -10,8 +10,14 @@ https://jqueryui.com/tooltip/
 <head>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/home.css">
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="dist/magnific-popup.css">
     <meta charset="UTF-8"> 
     <script src="js/image.js"></script>
+    <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!-- Magnific Popup core JS file -->
+    <script src="dist/jquery.magnific-popup.js"></script>
     <!--google fonts https://fonts.google.com/ -->
     <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC|Gothic+A1" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,8 +34,10 @@ https://jqueryui.com/tooltip/
             </ul>
         </nav>
     <main>
-            <div id="main_img"> 
-            <img src="img/corpsedlogo.jpeg" alt="Corpsed Logo">
+            <div id="main_img" class="zoom-gallery"> 
+                            <a href="img/corpsedlogo.jpeg" title="Corpsed Logo"">
+                                <img src="img/corpsedlogo.jpeg" alt="Corpsed Logo">
+                            </a>
             </div>
         <div class="wrapper">
             <p>

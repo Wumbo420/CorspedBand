@@ -88,6 +88,25 @@
     padding: 10px 25px;
     background-color: rgba(255, 255, 255, 1);
   }
+  .ui-autocomplete {
+    min-height: 100px;
+    max-height: 400px;
+    overflow-y: auto;
+      overflow-x: auto;
+    /* prevent horizontal scrollbar */
+    color: black;
+    background-color:rgba(255, 255, 255, 0.9);
+    font-family: inherit;
+    width: inherit; 
+    font-size: 14px;
+    text-align: center;
+    cursor: text;
+    border-radius: 5px; 
+    border: none;
+    margin: 15px 2px;
+    padding: 10px 25px;
+    display: grid;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -183,6 +202,26 @@
     padding: 10px 25px;
     background-color: rgba(255, 255, 255, 1);
   }
+  .ui-autocomplete {
+    min-height: 100px;
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: auto;
+    /* prevent horizontal scrollbar */
+    color: black;
+    background-color:rgba(255, 255, 255, 0.9);
+    font-family: inherit;
+    width: inherit; 
+    max-width: inherit;
+    font-size: 14px;
+    text-align: center;
+    cursor: text;
+    border-radius: 5px; 
+    border: none;
+    margin: 15px 2px;
+    padding: 10px 25px;
+    display: grid;
+  }
 }
   
 .text{
@@ -211,27 +250,13 @@ background-color: rgba(255, 255, 255, 1);
     padding: 10px 25px;
 }
 
-.ui-autocomplete {
-  min-height: 100px;
-  max-height: 300px;
-  overflow-y: auto;
-    overflow-x: auto;
-  /* prevent horizontal scrollbar */
-  color: black;
-  background-color:rgba(255, 255, 255, 0.9);
-  font-family: inherit;
-  width: inherit; 
-  max-width: 15%;
-  font-size: 14px;
-  cursor: text;
-  border-radius: 5px; 
-  border: none;
-  margin: 15px 2px;
-  padding: 10px 25px;
-}
+
   /* IE 6 doesn't support max-height
  * we use height instead, but this forces the menu to always be this tall
  */
+.ui-autocomplete :hover {
+  color: blue;
+}
   * html .ui-autocomplete {
     height: inherit;
     max-width: inherit;
