@@ -2,10 +2,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
         <link rel="stylesheet" href="css/contact.css">
-        <link rel="stylesheet" href="css/index.css ">
+        <link rel="stylesheet" href="css/index.css "> 
         <meta charset="UTF-8">
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
         <script src="js/index.js"></script>
         <script src="js/contact.js"></script>
         <!--google fonts https://fonts.google.com/ -->
@@ -27,7 +30,9 @@
             <div class="text">
                 <br><p>Contact Us<br>for stuff</p>
                     <section id="sect">
-                        <input name="form_subject" id="form_subject" type="subject" placeholder="subject">
+                            <div class="ui-widget">
+                                    <input name="form_subject" id="form_subject" type="subject" placeholder="subject">
+                                  </div>
                             <input name="form_email" id="form_email" type="email" placeholder="email" >
                                 </section> 
                                     <textarea type="text" id="form_message" class="e1" placeholder="message here" ></textarea>                       
@@ -35,7 +40,8 @@
                                      <button type="button" id ="send">Send</button>
                                 </section>
                             <p> If you would like to contact the band <strong id="imp">
-                                <a title="Please specify reason"><em>for any reason</em></a></strong> you may do so here.
+                                    <!--https://jqueryui.com/tooltip/#tracking-->
+                                <label title="Please specify reason"><em>for any reason</em><label></strong> you may do so here.
                         <br>Send your <u>email address</u> for serious inquiries.
                      </p>
                  <p>

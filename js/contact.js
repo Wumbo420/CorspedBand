@@ -18,3 +18,33 @@ $(document).ready(function()  {
         return false;
     });
 });
+//Autocomplete plugin
+$( function() {
+    var availableTags = [
+      "Album",
+      "Art",
+      "Band",
+      "Bandcamp",
+      "Cd",
+      "Clothing",
+      "Death Metal",
+      "Drums",
+      "Errors",
+      "Fan",
+      "Guitar",
+      "Management",
+      "Marketing",
+      "Merch",
+      "Music",
+      "Records",
+      "Songs",
+      "Tour",
+      "Tim",
+      "Website",
+      "Vinlys",
+      "Vocal",
+    ];
+    $( "#form_subject" ).autocomplete({
+      source: availableTags
+    });
+  });

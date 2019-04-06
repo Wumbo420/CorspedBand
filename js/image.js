@@ -13,9 +13,3 @@ for ( x = 0; x < icons.length; x++){
     ima = new Image();
     image.src = icons.href;
 }
-//https://jqueryui.com/tooltip/
-$('.ajax-popup-link').magnificPopup({
-    type: 'ajax'
-  });
-  
- 
