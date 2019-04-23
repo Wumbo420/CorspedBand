@@ -203,8 +203,9 @@
     background-color: rgba(255, 255, 255, 1);
   }
   .ui-autocomplete {
-    min-height: 100px;
+    min-height: 50px;
     max-height: 400px;
+    height: auto;
     overflow-y: auto;
     overflow-x: auto;
     /* prevent horizontal scrollbar */

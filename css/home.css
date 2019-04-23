@@ -80,3 +80,10 @@ footer {
   margin: 5%; 
 }
 
+#new_band img {
+	margin: 10px;
+	width: 130px;
+}
+#f1{
+  font-size: 2em;
+}
