@@ -79,11 +79,13 @@ footer {
   justify-content: center;
   margin: 5%; 
 }
-
+/*regular res screens*/
 #new_band img {
-	margin: 10px;
-	width: 130px;
+	margin: 5px;
+	width: 150px;
 }
+
+/*corsped text*/
 #f1{
   font-size: 2em;
 }

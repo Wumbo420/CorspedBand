@@ -16,16 +16,7 @@ $(document).ready(function() {
 		image.src = icons.href;
 	}
 		
-	$('#main_img').magnificPopup({
-		items: {
-			src: $('<div class="zoom-gallery">Dynamically created popup</div>'),
-			type: 'inline'
-		}
-	});  
-
-	$('.ajax-popup-link').magnificPopup({
-  		type: 'ajax'
-		});
+		/*ajax using flicker api for images*/
 		var url = "https://api.flickr.com/services/feeds/photos_public.gne?%20id=171090944@N04&format=json&jsoncallback=?";
     $.getJSON(url, function(data){
         var html = "";
@@ -37,5 +28,14 @@ $(document).ready(function() {
             html += "</a>";        
         });
         $('#new_band').html(html); 
-    });
+		});
+		
+			/*ajax using plugin for images
+			Magnific Popup core JS file
+			*/
+		
+			$('.simple-ajax-popup').magnificPopup({
+				type: 'ajax'
+			});
+
   }); 
