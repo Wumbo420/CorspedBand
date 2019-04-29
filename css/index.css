@@ -118,6 +118,9 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template
 .main_img{
   cursor: zoom-in;
 }
+.zoom_img{
+  border-radius: 5px;
+}
 
 .ui-tooltip, .arrow:after {
   background: black;
