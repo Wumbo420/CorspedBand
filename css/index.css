@@ -101,6 +101,11 @@ li a:hover {
   color: #ffffff;
 }
 
+li a:focus {
+  color: #ffffff;
+}
+
+
 li a:focus{
     outline: none;
 }
