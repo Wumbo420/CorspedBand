@@ -34,7 +34,31 @@
     color: white;
     margin: auto;
 }
-#icon_links{
+
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       margin-top: 30px;
       width: 128px;
 }
